@@ -1,5 +1,8 @@
-div {
-    height: 200px;
-    width: 50%;
-    background-color: powderblue;
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
 }
