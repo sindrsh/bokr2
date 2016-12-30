@@ -1,8 +1,8 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-
+</head>    
 <div class="menu">
+<!--Menyer-->
 <style>
 
 ul {
@@ -34,7 +34,7 @@ li a:hover:not(.active) {
     color: white;
 }
 </style>
-    
+<\div>    
 <ul>
   <li><a href="home">Startside</a></li>
   <li><a href="kap1">Kapittel 1</a></li>
