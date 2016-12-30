@@ -1,7 +1,14 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="import" href="menu.html">  
 </head>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.menu');
+    document.body.appendChild(el.cloneNode(true));
+  </script>  
 <body>
 
 <h1>This is a heading</h1>
