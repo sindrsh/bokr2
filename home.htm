@@ -1,6 +1,19 @@
-<!DOCTYPE html>
 <html>
+
+<head>
+  <link rel="import" href="menu.html">
+</head>
 <body>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.menu');
+
+    document.body.appendChild(el.cloneNode(true));
+  </script>
+ 
 <div style="margin-left:25%;margin-right:25%;padding:1px 16px;height:1000px;">
   <h2>Fixed Full-height Side Nav</h2>
   <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
