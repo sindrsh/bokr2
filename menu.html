@@ -34,13 +34,22 @@ li a:hover:not(.active) {
     color: white;
 }
 </style>
-
+    
 <ul>
-  <li><a class="active", href="home">Startside</a></li>
+  <li><a href="home">Startside</a></li>
   <li><a href="kap1">Kapittel 1</a></li>
   <li><a href="kap2">Kapittel 2</a></li>
   <li><a href="kap3">Kapittel 3</a></li>
 </ul>
     
 </div>
+
+$(document).ready(function() {
+    $("[href]").each(function() {
+    if (this.href == window.location.href) {
+        $(this).addClass("active");
+        }
+    });
+});
+
 <html>
