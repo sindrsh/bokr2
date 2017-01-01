@@ -7,7 +7,6 @@
 <div class="menu">
 <!--Menyer-->
 <style>
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,22 +23,19 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
 }
-
 /* Change the link color on hover */
-
 li a.active {
     background-color: #4CAF50;
     color: white;
 }
-
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 </style>
-
+    
 <ul>
-  <li><a href="home">Startside</a></li>
+  <li><a href="http://beggar-deer-46737.netlify.com/home">Startside</a></li>
   <li><a href="http://beggar-deer-46737.netlify.com/kap1/kap1">Kapittel 1</a></li>
   <li><a href="http://beggar-deer-46737.netlify.com/tri.pdf">Kapittel 2</a></li>
   <li><a href="http://beggar-deer-46737.netlify.com/kap3">Kapittel 3</a></li>
@@ -51,8 +47,7 @@ li a:hover:not(.active) {
   <li><a href="ggb">GeoGebra</a></li>    
 </ul>
 </div>    
-
-<script>       
+<script>   
 $(document).ready(function() {
     $("[href]").each(function() {
     if (this.href == window.location.href) {
