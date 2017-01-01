@@ -49,7 +49,7 @@ var burl = "http://beggar-deer-46737.netlify.com/";
 <script>
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.burl"), function() {
-    this.href = burl + link.getAttribute("data-extra");
+    this.href = burl + this.getAttribute("data-extra");
   }); 
 })();
 </script>
