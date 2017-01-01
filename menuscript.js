@@ -1,4 +1,4 @@
-var burl = "http://www.example.com/";
+var burl = "http://beggar-deer-46737.netlify.com/";
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.burl"), function(link) {
