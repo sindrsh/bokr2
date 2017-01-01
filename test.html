@@ -34,19 +34,26 @@ li a:hover:not(.active) {
 }
 </style>
     
-<?php
-$root = "http://beggar-deer-46737.netlify.com/";
-echo $root;
-?>
+
+<script>
+var burl = "http://beggar-deer-46737.netlify.com/";
+</script>
 <h1>JavaScript Variables</h1>
 <ul>    
-<li><a href=home >First link</a></li>
-<li><a href="<?= $root ?>kap1/kap1" class="burl" data-extra="menu">First link</a></li>
-<li><a href="<?= $root ?>kap3" class="burl" data-extra="menu">Kap 3</a></li>
-</ul>
+<li><a href="" class="burl" data-extra="menu">First link</a></li>
+<li><a href="" class="burl" data-extra="home">second link</a></li>
+<li><a href="" class="burl" data-extra="menu">First link</a></li>
 
+<script>
+(function() {
+  Array.prototype.forEach.call(document.querySelectorAll("a.burl"), function(link) {
+    link.href = burl + link.getAttribute("data-extra");
+  });
+})();
+</script> 
+</ul>
 </div>    
-<script> 
+<script>   
 $(document).ready(function() {
     $("[href]").each(function() {
     if (this.href == window.location.href) {
