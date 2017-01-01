@@ -43,17 +43,15 @@ var burl = "http://beggar-deer-46737.netlify.com/";
 <li><a href="" class="burl" data-extra="menu">First link</a></li>
 <li><a href="" class="burl" data-extra="home">second link</a></li>
 <li><a href="" class="burl" data-extra="menu">First link</a></li>
+</ul>
 
-<script>
+</div>    
+<script> 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.burl"), function(link) {
     link.href = burl + link.getAttribute("data-extra");
   });
-})();
-</script> 
-</ul>
-</div>    
-<script>   
+})();    
 $(document).ready(function() {
     $("[href]").each(function() {
     if (this.href == window.location.href) {
