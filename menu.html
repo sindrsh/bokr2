@@ -33,19 +33,26 @@ li a:hover:not(.active) {
     color: white;
 }
 </style>
+
     
-<ul>
-  <li><a href="http://beggar-deer-46737.netlify.com/home">Startside</a></li>
-  <li><a href="http://beggar-deer-46737.netlify.com/kap1/kap1">Kapittel 1</a></li>
-  <li><a href="http://beggar-deer-46737.netlify.com/tri.pdf">Kapittel 2</a></li>
-  <li><a href="http://beggar-deer-46737.netlify.com/kap3">Kapittel 3</a></li>
-  <li><a href="kap4">Kapittel 4</a></li>
-  <li><a href="kap5">Kapittel 5</a></li>
-  <li><a href="kap6">Kapittel 6</a></li>   
-  <li><a href="kap7">Kapittel 7</a></li>
-  <li><a href="kap8">Kapittel 8</a></li>
-  <li><a href="ggb">GeoGebra</a></li>    
+<script>
+var root = "http://beggar-deer-46737.netlify.com/";
+</script>
+
+<ul>    
+<li><a href="" class="root" data-extra="home">Startside</a></li>
+<li><a href="" class="root" data-extra="kap1/kap1">Kapittel 1</a></li>
+<li><a href="" class="root" data-extra="kap2/kap2">Startside</a></li>    
+<li><a href="" class="root" data-extra="kap3">Startside</a></li>    
 </ul>
+<script>
+(function() {
+  Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
+    link.href = burl + link.getAttribute("data-extra");
+  });
+})();
+</script>     
+ 
 </div>    
 <script>   
 $(document).ready(function() {
