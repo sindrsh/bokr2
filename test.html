@@ -52,9 +52,9 @@ var burl = "http://beggar-deer-46737.netlify.com/";
     link.href = burl + link.getAttribute("data-extra");
   });
 $(document).ready(function() {
-    $("[href]").each(function() {
-    if (this.href == window.location.href) {
-        $(this).addClass("active");
+    $("[href]").each(function(link) {
+    if (link.href == window.location.href) {
+        $(link).addClass("active");
         }
     });
 });    
