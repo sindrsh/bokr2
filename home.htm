@@ -1,23 +1,19 @@
 <html>
-
 <head>
-  <link rel="import" href="menu.html">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="import" href="menu.html">  
 </head>
+
 <body>
   <script>
     var link = document.querySelector('link[rel="import"]');
     var content = link.import;
     var el = content.querySelector('.menu');
     document.body.appendChild(el.cloneNode(true));
-    var el = content.querySelector('.marg');
-    document.body.appendChild(el.cloneNode(true));
-  </script>
-<div class=el.marg> 
-<h2>Fixed Full-height Side Nav</h2>
-<h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
-<p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
-<p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
-<p>Some text..</p>
+  </script> 
+<div class=marg>
+<h1>Matematikk R2</h1>
+<p>This is a paragraph.</p>
 </div>
 </body>
 </html>
