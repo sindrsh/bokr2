@@ -46,11 +46,6 @@ $root = "http://beggar-deer-46737.netlify.com/";
 
 </div>    
 <script> 
-(function() {
-  Array.prototype.forEach.call(document.querySelectorAll("a.burl"), function(link) {
-    link.href = burl + link.getAttribute("data-extra");
-  });
-})();    
 $(document).ready(function() {
     $("[href]").each(function() {
     if (this.href == window.location.href) {
