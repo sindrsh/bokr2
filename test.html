@@ -54,7 +54,7 @@ var burl = "http://beggar-deer-46737.netlify.com/";
 $(document).ready(function() {
     $("[href]").each(function(link) {
     if (link.href == window.location.href) {
-        $(link).addClass("active");
+        $(this).addClass("active");
         }
     });
 });    
