@@ -1,7 +1,7 @@
 var burl = "http://beggar-deer-46737.netlify.com/";
 
 (function() {
-  Array.prototype.forEach.call(document.querySelectorAll("a.burl"), function(link) {
+  Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
     link.href = burl + link.getAttribute("data-extra");
   });
 })();
