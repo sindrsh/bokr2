@@ -4,9 +4,9 @@ div.marg {
     margin-right:25%;
     padding:1px 16px;
     height:1000px;
-    background-color: #f1f1f1;
+    background-color: hsl(60, 70%, 90%);
 }
 
 body.backgr{
-    background-color: hsl(60, 70%, 90%);
+    background-color: hsl(120, 70%, 90%);
 }
