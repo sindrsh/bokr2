@@ -7,3 +7,7 @@ div.marg {
     background-color: lightgreen;
 }
 
+body.backgr{
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}
