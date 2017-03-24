@@ -9,6 +9,16 @@ div.marg {
     background-color: hsl(60, 70%, 95%);
 }
 
+style.all{
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 14px;
+}
+}
+
 body.backgr{
     background-color: hsl(31, 69%, 75%);
 }
