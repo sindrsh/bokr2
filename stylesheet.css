@@ -19,10 +19,12 @@ p{
 
 body.backgr{
     background-color: hsl(240, 67%, 90%);
-    background-image: url("rek.png"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: url("rek.png"); 
     background-position: 30% 20%; 
+    background-image: url("rek.png"); 
+    background-position: 80% 80%;     
 }
 
 table{
