@@ -18,7 +18,8 @@ p{
 }
 
 body.backgr{
-    background-color: hsl(240, 67%, 90%)
+    background-color: hsl(240, 67%, 90%);
+    background-image: url("int6b.pdf");    
 }
 
 table{
