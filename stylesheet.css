@@ -19,7 +19,7 @@ p{
 
 body.backgr{
     background-color: hsl(240, 67%, 90%);
-    background-image: url("rek.png"), url("rek.png");
+    background-image: url("rek.png"), url("N.png");
     background-position: 0% 80%, 80% 80%;
     background-repeat: no-repeat, no-repeat;    
 }
