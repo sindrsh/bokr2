@@ -21,6 +21,8 @@ body.backgr{
     background-color: hsl(240, 67%, 90%);
     background-image: url("rek.png"); 
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 30% 20%; 
 }
 
 table{
