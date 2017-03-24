@@ -19,8 +19,8 @@ p{
 
 body.backgr{
     background-color: hsl(240, 67%, 90%);
-    background-image: url("int.png"), url("N.png"), url("fund.png");
-    background-position: 10% 80%, 90% 80%, 95% 0%;
+    background-image: url("int.png"), url("N.png"), url("fund.png"), url("unitcirc.png");
+    background-position: 10% 80%, 90% 80%, 95% 0%, 90% 50%;
     background-repeat: no-repeat, no-repeat;    
 }
 
