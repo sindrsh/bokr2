@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="import" href="menu.html">  
+</head>
+
+<body class=backgr>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.menu');
+    document.body.appendChild(el.cloneNode(true));
+  </script>
+<script src="menuscript.js"></script>    
+<div class=marg>
+<p>Dette er hjemmesiden til boken "Før kalkulus - Matematikk R2". Her vil du finne løsningsforslag for oppgavene fra
+hvert kapittel i boken i tillegg til GeoGebra- og eksamensressurser. </p>
+
+<p> <br><b>Om boka</b><br>
+Bokas hovedmål er å tilby en fullstendig gjennomgang av emnene fra Utdanningsdirektoratets læreplan
+(<a href=" https://www.udir.no/kl06/MAT3-01/Hele/Kompetansemaal/matematikk-r2">link</a>) for matematikk R2. Boka er 
+</p>
+</div>
+</body>
+</html>
