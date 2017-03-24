@@ -26,7 +26,6 @@ table{
     table-layout: fixed;
 }
 td{
-    margin-right:100px;
     padding: 15px;
     vertical-align: top;
 }  
