@@ -2,8 +2,8 @@ div.marg {
     font-family: Verdana, Geneva, sans-serif;
     margin-left:25%;
     margin-right:25%;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     padding-top: 16px;
     height:1000px;
     background-color: hsl(60, 70%, 95%);
