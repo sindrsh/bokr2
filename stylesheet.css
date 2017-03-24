@@ -20,3 +20,16 @@ p{
 body.backgr{
     background-color: hsl(31, 69%, 75%);
 }
+
+<style>
+table{
+    table-layout: fixed;
+}
+td{
+    margin-right:100px;
+    padding: 15px;
+    vertical-align: top;
+}  
+td.c2{padding-left: 40px}
+  
+</style>
