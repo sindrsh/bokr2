@@ -1,0 +1,19 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+<link rel="import" href="../menu.html">  
+</head>
+
+<body class=backgr>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.menu');
+    document.body.appendChild(el.cloneNode(true));
+  </script> 
+<script src="../menuscript.js"></script>    
+<div class=marg>
+<h1>Differensialligninger</h1>
+</div>
+</body>
+</html>
