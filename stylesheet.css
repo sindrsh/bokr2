@@ -13,7 +13,8 @@ div.marg {
 
 h1{
     font-size: 28px;
-    color: hsl(0, 25%, 45%);
+    color: #5F584E;
+    /*color: hsl(0, 25%, 45%);*/
 }
 
 p{
