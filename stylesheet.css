@@ -27,23 +27,12 @@ body.backgr{
     background-repeat: no-repeat;   
 }
 
-table{
-    table-layout: fixed;
-    width: 100%;
-}
-td{
-    padding-bottom: 15px;  
-    vertical-align: top;
-    font-size: 18px;
-}  
-td.c2{padding-left: 30px;}
-
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
     background-color: hsl(0, 20%, 30%);
     border: none;
     color: hsl(36, 20%, 97%);
-    padding: 15px 32px;
+    padding: 1em 1.5em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
