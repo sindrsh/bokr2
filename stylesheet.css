@@ -1,5 +1,6 @@
 div.marg {
     font-family: Arial,sans-serif, Times;
+    font-size: 1.2vw;
     margin-left:25em;
     margin-right:25em;
     padding-right: 3em;
@@ -15,10 +16,6 @@ h1{
     font-size: 28px;
     /*color: #5F584E;*/
     color: hsl(0, 25%, 30%);
-}
-
-p{
-    font-size: 1.2vw;
 }
 
 body.backgr{
