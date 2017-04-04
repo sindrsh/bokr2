@@ -18,7 +18,7 @@ h1{
 }
 
 p{
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
 body.backgr{
@@ -36,5 +36,5 @@ body.backgr{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.2px;
 }  
