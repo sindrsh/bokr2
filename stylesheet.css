@@ -30,7 +30,7 @@ body.backgr{
     background-color: hsl(0, 20%, 30%);
     border: none;
     color: hsl(36, 20%, 97%);
-    padding: 0.8em 1em;
+    padding: 0.8em 0.8em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
