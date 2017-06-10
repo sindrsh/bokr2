@@ -1,4 +1,4 @@
-var burl = "http://beggar-deer-46737.netlify.com/";
+var burl = "https://forkalkulus.netlify.com/";
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
