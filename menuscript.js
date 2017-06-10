@@ -1,4 +1,4 @@
-var burl = "https://forkalkulus.netlify.com/";
+var burl = "http://forkalkulus.netlify.com/";
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
