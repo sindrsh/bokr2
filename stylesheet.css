@@ -23,6 +23,13 @@ body.backgr{
     /*background-image:url("http://www.math.cornell.edu/~mec/Winter2009/Mihai/section8_files/72-Day_and_Night.jpg");*/
     background-image:url("bck.jpeg");
     background-repeat: no-repeat;   
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        var el = content.querySelector('.menu');
+        document.body.appendChild(el.cloneNode(true));
+      </script>
+    <script src="menuscript.js"></script>      
 }
 
 .button {
