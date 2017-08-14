@@ -1,0 +1,25 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="import" href="menu.html">  
+</head>
+
+<body class=backgr>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.menu');
+    document.body.appendChild(el.cloneNode(true));
+  </script>
+<script src="menuscript.js"></script>    
+<div class=marg>
+<p>Dette er hjemmesiden til <i>Før kalkulus</i>, et komplett læreverk i matematikk R2. Læreverket består
+av de to delene <i> Før kalkulus; Teoridel</i> og <i> Før kalkulus; GeoGebra i R2</i>. Teoridelen kan kjøpes i papirform 
+eller som brettbok (se <i>Bestill</i>), mens GeoGebra-delen ligger gratis tilgjengelig på denne nettsiden (se <i>GeoGebra</i>).</p>
+
+<p> Her finner du løsningsforslag for oppgavene fra 
+teoridelen, i tillegg til prosjektoppgaver for hvert kapittel og eksamensressurser. For innsyn, og i tilfelle 
+forsinkelser ved levering, er kapittel 1 fra teoridelen også gratis tilgjengelig (<i>se Kapittel 1 - Følger og rekker</i>). </p>
+</div>
+</body>
+</html>
