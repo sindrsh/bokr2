@@ -14,19 +14,8 @@ div.marg {
 
 @media only screen and (max-width: 1000px) {
     div.marg {
-        font-family: "Lucida Sans", Arial,sans-serif, ;
-        font-size: 1.2vw;
-        margin-left:22em;
-        margin-right:22em;
-        padding-right: 3em;
-        padding-left: 3em;
-        padding-top: 0.8em;
-        padding-bottom: 0.8em;
-        /*border-radius: 4%;*/
-        /*background-color: hsl(60, 70%, 95%);*/
-        background: rgba(251, 251, 233, 0.9);
         margin-top: 200px;
-    }
+    }}
 
 h1{
     font-size: 1.6vw;
