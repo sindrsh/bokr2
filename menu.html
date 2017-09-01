@@ -16,6 +16,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 250px;
+    position: absolute;
     /*#f1f1f1; */
     /*background-color: hsl(60, 70%, 95%);*/
     background: rgba(251, 251, 233, 0.9);
@@ -24,7 +25,12 @@ ul {
     /*position: fixed;  Make it stick, even on scroll */
     /*overflow: auto;  Enable scrolling if the sidenav has too much content */
 }   
-    
+@media only screen and (max-width: 900px) {
+    ul {
+        width: 95%;
+    }
+}  
+      
 li a {
     display: block;
     /* #000 */
@@ -42,12 +48,7 @@ li a:hover:not(.active) {
     background-color: hsl(0, 25%, 30%);
     color: white;
 }
-      
-@media only screen and (max-width: 900px) {
-    ul {
-        width: 95%;
-    }
-}      
+         
       
 </style>
 <div class="menu" style="position:absolute">    
