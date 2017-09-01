@@ -15,7 +15,7 @@
 @media only screen and (max-width: 1000px) {
     .marg {
         position: absolute;
-        top: 200px;
+        top-margin: 200px;
     }}
 
 h1{
