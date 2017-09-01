@@ -8,14 +8,13 @@
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     position: absolute;
-    top: 1em;
+    top: 12px;
     /*border-radius: 4%;*/
     /*background-color: hsl(60, 70%, 95%);*/
     background: rgba(251, 251, 233, 0.9);
 }
 @media only screen and (max-width: 900px) {
     body {
-        position: absolute;
         top: 300px;
     }
 }
