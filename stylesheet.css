@@ -13,7 +13,7 @@ div.marg {
 }
 
 @media only screen and (max-width: 1000px) {
-    div.marg {
+    .marg {
         margin-top: 200px;
     }}
 
