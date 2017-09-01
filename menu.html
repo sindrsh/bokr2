@@ -8,7 +8,7 @@
 function chMenu() {
     var w = window.innerWidth;
     if (w < 900) {
-    document.getElementsByClass("menu").style.top = "50px";
+    document.getElementById("menu").style.top = "50px";
     }    
 }
       </script>
@@ -66,7 +66,7 @@ li a:hover:not(.active) {
          
       
 </style>
-<div class="menu">    
+<div class="menu" id="menu">    
 <ul>
   <li><a href="" onclick="chMenu()" class="root" data-extra="start">Startside</a></li>
   <li><a href="" class="root" data-extra=var1> Kapittel 1 - Følger og rekker</a></li>
