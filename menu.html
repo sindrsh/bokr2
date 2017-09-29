@@ -35,8 +35,14 @@ ul {
     .menu {
         width: 98%;
         left:1%
-        right:1%;
+        right:1%;     
     }
+
+<script>
+    function chMenu() {
+    document.getElementById("menu").style.top = "50px";
+}    
+    </script>   
 }  
       
 li a {
@@ -74,11 +80,5 @@ li a:hover:not(.active) {
   <li><a href="" class="root" data-extra="bst/bst">Bestill</a></li>  
 </ul>
 </div>    
-
-<script>
-    function chMenu() {
-    var w = window.innerWidth;
-    document.getElementById("menu").style.top = "50px";
-}    
-    </script>      
+     
 <html>
