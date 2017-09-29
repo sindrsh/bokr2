@@ -54,12 +54,11 @@ li a:hover:not(.active) {
     background-color: hsl(0, 25%, 30%);
     color: white;
 }
-         
-      
+               
 </style>
 <div class="menu" id="menu">    
 <ul>
-  <li><a href="" class="root" data-extra="start">Startside</a></li>
+  <li><a id="start" href="" class="root" data-extra="start">Startside</a></li>
   <li><a href="" class="root" data-extra=var1> Kapittel 1 - Følger og rekker</a></li>
   <li><a href="" class="root" data-extra="kap2/kap2">Kapittel 2 - Trigonometri</a></li>
   <li><a href="" class="root" data-extra="kap3/kap3">Kapittel 3 - Vektorer i rommet</a></li>
@@ -71,6 +70,13 @@ li a:hover:not(.active) {
   <li><a href="" class="root" data-extra="eks/eks">Eksamen</a></li>    
   <li><a href="" class="root" data-extra="bst/bst">Bestill</a></li>  
 </ul>
+
+<script>
+if (new Date().getHours() > 18) {
+    document.getElementById("start").innerHTML = "Good day!";
+}
+</script>  
+  
 </div>    
      
 <html>
