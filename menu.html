@@ -71,11 +71,13 @@ li a:hover:not(.active) {
   <li><a href="" class="root" data-extra="bst/bst">Bestill</a></li>  
 </ul>
 
+<p id="demo">Good Evening!</p>
+
 <script>
-if (new Date().getHours() > 18) {
-    document.getElementById("start").innerHTML = "Good day!";
+if (new Date().getHours() < 18) {
+    document.getElementById("demo").innerHTML = "Good day!";
 }
-</script>  
+</script>
   
 </div>    
      
