@@ -1,5 +1,8 @@
-var burl = "https://forkalkulus.netlify.com/";
+var burl = "http://forkalkulus.netlify.com/";
 var scrw = 500;
+
+if (window.innerWidth < 500){
+  window.location.assign(window.location.href+"m")}
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
