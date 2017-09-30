@@ -1,5 +1,5 @@
 var bur2 = "http://forkalkulus.netlify.com/";
-var scrw2 = 500;
+var scrw2 = 700;
 
 if (window.innerWidth < scrw2){
   window.location.assign("http://forkalkulus.netlify.com/homem")}
