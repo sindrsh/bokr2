@@ -1,4 +1,5 @@
 var burl = "http://forkalkulus.netlify.com/";
+var scrw = 500;
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
