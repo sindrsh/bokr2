@@ -2,7 +2,7 @@ var bur2 = "http://forkalkulus.netlify.com/";
 var scrw2 = 500;
 
 if (window.innerWidth < scrw2){
-  window.location.assign(window.location.href+"m")}
+  window.location.assign("http://forkalkulus.netlify.com/homem")}
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
