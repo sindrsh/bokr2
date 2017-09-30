@@ -1,12 +1,12 @@
-var burl = "http://forkalkulus.netlify.com/";
-var scrw = 500;
+var bur2 = "http://forkalkulus.netlify.com/";
+var scrw2 = 500;
 
-if (window.innerWidth < 500){
+if (window.innerWidth < scrw2){
   window.location.assign(window.location.href+"m")}
 
 (function() {
   Array.prototype.forEach.call(document.querySelectorAll("a.root"), function(link) {
-    link.href = burl + link.getAttribute("data-extra");
+    link.href = bur2 + link.getAttribute("data-extra");
   });
 })();
 
