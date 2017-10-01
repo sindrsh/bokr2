@@ -38,3 +38,17 @@ body.backgr{
     display: inline-block;
     font-size: 1em;
 }  
+
+.bt2 {
+    /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
+    background-color: hsl(0, 20%, 30%);
+    left=0;
+    top=0;
+    border: none;
+    color: hsl(36, 20%, 97%);
+    padding: 0.5em 0.7em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}  
