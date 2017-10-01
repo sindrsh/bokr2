@@ -1,7 +1,7 @@
 .marg {
     font-family: "Lato","Lucida Sans",sans-serif, ;
     font-size: 20px;
-    margin-left:420px;
+    margin-left: 420px;
     width: 600px;
     padding-right: 20px;
     padding-left: 20px;
@@ -13,7 +13,7 @@
 }
 .hd {
     font-family: "Lato","Lucida Sans",sans-serif, ;
-    margin-left:420px;
+    margin-left: 420px;
     width: 600px;
     height: 40px;
     position: fixed;
@@ -42,7 +42,7 @@ body.backgr{
 
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
-    background-color: rgba(77, 77, 0, 0.9);
+    background-color: rgba(77, 77, 0, 0.8);
     border: none;
     color: white;
     padding: 9px 6px;
