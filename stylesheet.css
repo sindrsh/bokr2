@@ -25,6 +25,7 @@
 }
 
 h{
+    position: fixed;
     text-align: left;
     font-size: 28px;
     vertical-align: middle;
