@@ -18,8 +18,8 @@
     height: 40px;
     position: fixed;
     top: 12px;
-    padding-top: 3px;
-    paddint-bottom: 3px;
+    padding-top: 2px;
+    paddint-bottom: 2px;
     padding-right: 20px;
     padding-left: 20px;
     /*background-color: hsl(60, 70%, 95%);*/
@@ -42,7 +42,7 @@ body.backgr{
 
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
-    background-color: rgba(77, 77, 77,0.8);
+    background-color: hsl(60, 100%, 20%);
     border: none;
     color: white;
     padding: 9px 6px;
