@@ -3,10 +3,8 @@
     font-size: 20px;
     margin-left:400px;
     width: 550px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-right: 35px;
+    padding-left: 35px;
     position: fixed;
     top: 100px;
     /*border-radius: 4%;*/
@@ -16,12 +14,12 @@
 .hd {
     font-family: "Lato","Lucida Sans",sans-serif, ;
     margin-left:400px;
-    width: 650px;
+    width: 550px;
     height: 40px;
     position: fixed;
     top: 12px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
     padding-top: 12px;
     padding-bottom: 12px;
     /*background-color: hsl(60, 70%, 95%);*/
