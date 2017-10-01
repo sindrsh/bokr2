@@ -42,7 +42,7 @@ body.backgr{
 
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
-    background-color: hsl(60, 100%, 20%);
+    background-color: rgb(77, 77, 0, 0.9);
     border: none;
     color: white;
     padding: 9px 6px;
