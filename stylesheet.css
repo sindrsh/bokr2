@@ -28,7 +28,7 @@ h{
     position: fixed;
     text-align: left;
     font-size: 28px;
-    vertical-align: bottom;
+    vertical-align: -3px;
     /*color: #5F584E;*/
     color: white;
 }
