@@ -40,10 +40,10 @@ body.backgr{
 
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
-    background-color: rgba(77, 77, 77,0.7);
+    background-color: rgba(77, 77, 77,0.8);
     border: none;
     color: white;
-    padding: 2px 2px;
+    padding: 4px 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
