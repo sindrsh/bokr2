@@ -15,10 +15,9 @@
 }
 .hd {
     font-family: "Lato","Lucida Sans",sans-serif, ;
-    font-size: 20px;
     margin-left:400px;
     width: 550px;
-    height: 20px;
+    height: 40px;
     position: fixed;
     top: 12px;
     /*border-radius: 4%;*/
@@ -28,7 +27,7 @@
 
 h1{
     text-align: left;
-    font-size: 40px;
+    font-size: 32px;
     /*color: #5F584E;*/
     color: hsl(0, 25%, 30%);
 }
