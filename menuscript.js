@@ -1,4 +1,4 @@
-var burl = "http://forkalkulus.netlify.com/";
+var hmp = "http://forkalkulus.netlify.com/";
 var scrw = 500;
 
 if (window.innerWidth < 500){
