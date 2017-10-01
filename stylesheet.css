@@ -25,10 +25,9 @@
 }
 
 h{
-    position: fixed;
     text-align: left;
     font-size: 28px;
-    vertical-align: -3px;
+    vertical-align:-10px;
     /*color: #5F584E;*/
     color: white;
 }
