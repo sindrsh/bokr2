@@ -19,10 +19,6 @@
     margin-left:400px;
     width: 550px;
     height: 20px;
-    padding-right: 3em;
-    padding-left: 3em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
     position: fixed;
     top: 12px;
     /*border-radius: 4%;*/
@@ -31,6 +27,7 @@
 }
 
 h1{
+    text-align: left;
     font-size: 40px;
     /*color: #5F584E;*/
     color: hsl(0, 25%, 30%);
@@ -55,16 +52,3 @@ body.backgr{
     font-size: 1em;
 }  
 
-.bt2 {
-    /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
-    background-color: hsl(0, 20%, 30%);
-    left:0;
-    top:0;
-    width: 100%;
-    border: none;
-    color: hsl(36, 20%, 97%);
-    padding: 0.5em 0.7em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}  
