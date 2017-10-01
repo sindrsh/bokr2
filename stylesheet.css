@@ -57,8 +57,8 @@ body.backgr{
 .bt2 {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
     background-color: hsl(0, 20%, 30%);
-    left=0;
-    top=0;
+    left:0;
+    top:0;
     width: 100%;
     border: none;
     color: hsl(36, 20%, 97%);
