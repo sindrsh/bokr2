@@ -3,10 +3,10 @@
     font-size: 20px;
     margin-left:400px;
     width: 550px;
-    padding-right: 3em;
-    padding-left: 3em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     position: fixed;
     top: 100px;
     /*border-radius: 4%;*/
@@ -20,7 +20,10 @@
     height: 40px;
     position: fixed;
     top: 12px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     /*background-color: hsl(60, 70%, 95%);*/
     background: rgba(40, 251, 233, 0.9);
 }
