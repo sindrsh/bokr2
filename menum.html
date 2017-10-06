@@ -2,7 +2,7 @@
 
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">            
-
+<head>
 <style>
         
 body {
@@ -10,7 +10,7 @@ body {
     width:94%;
     overflow: hidden;
 }
-.topnav {
+.menu {
     height: 52px;
     position: fixed;
     z-index: 1;
@@ -21,7 +21,7 @@ body {
     transition: 0.5s;
     width: inherit;
 }
-.topnav a,span {
+.menu a,span {
     padding: 8px 8px 8px 16px;
     text-decoration: none;
     font-size: 23px;
@@ -29,14 +29,14 @@ body {
     display: block;
     transition: 0.3s;
 }
-.topnav a:hover {
+.menu a:hover {
     color: #f1f1f1;
 }
-.topnav span:hover {
+.menu span:hover {
     color: #f1f1f1;
 }
 </style>
-
+<\head>
   
 <div id="mySidenav" class="topnav">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>     
