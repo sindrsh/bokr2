@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>         
+<html>
 <head>
 <style>
-  .menu {
+        
+body {
+    font-family: "Lato", sans-serif;
+    width:94%;
+    overflow: hidden;
+}
+.topnav {
     height: 52px;
     position: fixed;
     z-index: 1;
@@ -13,24 +19,35 @@
     transition: 0.5s;
     width: inherit;
 }
-.menu a,span {
-    padding: 8px 8px 8px 26px;
+.topnav a,span {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
-.menu a:hover {
+.topnav a:hover {
     color: #f1f1f1;
 }
-.menu span:hover {
+.topnav span:hover {
     color: #f1f1f1;
 }
-  <\style>
-  <\head>
-  
-<div id="mySidenav" class="menu">
+#main {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    font-size: 25px;    
+    transition: margin-top .5s;
+    padding: 16px;
+    margin-top: 52px;
+    font-family: "Lato", sans-serif; 
+}
+</style>
+</head>
+<body>
+    
+<div id="mySidenav" class="topnav">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>     
   <li><a href="http://forkalkulus.netlify.com/start"> Startside</a></li>
   <li><a href="http://forkalkulus.netlify.com/kap1/kap1"> Kapittel 1 - Følger og rekker</a></li>
@@ -43,6 +60,20 @@
   <li><a href="" class="root" data-extra="ggb/ggb">GeoGebra</a></li>      
   <li><a href="" class="root" data-extra="eks/eks">Eksamen</a></li>    
   <li><a href="" class="root" data-extra="bst/bst">Bestill</a></li> 
+</div>
+
+<div id="main">  
+<p>Dette er hjemmesiden til <i>Før kalkulus</i>, et komplett læreverk i matematikk R2. Læreverket består
+av de to delene <i> Før kalkulus; Teoridel</i> og <i> Før kalkulus; GeoGebra i R2</i>. Teoridelen kan kjøpes i papirform 
+eller som brettbok (se <i>Bestill</i>), mens GeoGebra-delen ligger gratis tilgjengelig på denne nettsiden (se <i>GeoGebra</i>).</p>
+
+<p> Her finner du løsningsforslag for oppgavene fra 
+teoridelen, i tillegg til prosjektoppgaver for hvert kapittel og eksamensressurser. For innsyn, og i tilfelle 
+forsinkelser ved levering, er kapittel 1 fra teoridelen også gratis tilgjengelig (<i>se Kapittel 1 - Følger og rekker</i>). </p>
+
+<p> <b>Kontakt</b>: forkalkulus@gmail.com </p>
+<p><a href="frogi.pdf" class="button">Forside, innholdsfortegnelse og bakside</a></p>  
+  <p><a href="reg.pdf" class="button">Formelark</a></p>      
 </div>
 
 <script>
@@ -65,4 +96,5 @@ function closeNav() {
 }
 </script>
      
+</body>
 </html> 
