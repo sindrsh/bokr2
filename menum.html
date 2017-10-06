@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>         
-
+<head>
+<style>
+  .topnav {
+    height: 52px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:3%;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.5s;
+    width: inherit;
+}
+.menu a,span {
+    padding: 8px 8px 8px 26px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.menu a:hover {
+    color: #f1f1f1;
+}
+.menu span:hover {
+    color: #f1f1f1;
+}
+  <\style>
+  <\head>
+  
 <div id="mySidenav" class="topnav">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>     
   <li><a href="http://forkalkulus.netlify.com/start"> Startside</a></li>
