@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">            
 <head>
@@ -10,7 +9,7 @@ body {
     width:94%;
     overflow: hidden;
 }
-.menu {
+.topnav {
     height: 52px;
     position: fixed;
     z-index: 1;
@@ -21,24 +20,35 @@ body {
     transition: 0.5s;
     width: inherit;
 }
-.menu a,span {
-    padding: 8px 8px 8px 16px;
+.topnav a,span {
+    padding: 8px 8px 8px 26px;
     text-decoration: none;
     font-size: 23px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
-.menu a:hover {
+.topnav a:hover {
     color: #f1f1f1;
 }
-.menu span:hover {
+.topnav span:hover {
     color: #f1f1f1;
+}
+#main {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+    font-size: 23px;    
+    transition: margin-top .5s;
+    padding: 16px;
+    margin-top: 52px;
+    font-family: "Lato", sans-serif; 
 }
 </style>
-<\head>
-  
-<div id="mySidenav" class="menu">
+</head>
+<body>
+    
+<div id="mySidenav" class="topnav">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>     
   <li><a href="http://forkalkulus.netlify.com/start"> Startside</a></li>
   <li><a href="http://forkalkulus.netlify.com/kap1/kap1"> Kapittel 1 - Følger og rekker</a></li>
@@ -51,7 +61,9 @@ body {
   <li><a href="" class="root" data-extra="ggb/ggb">GeoGebra</a></li>      
   <li><a href="" class="root" data-extra="eks/eks">Eksamen</a></li>    
   <li><a href="" class="root" data-extra="bst/bst">Bestill</a></li> 
-        
+</div>
+
+<script>
 var cnt = 0;    
 function openNav() {
     if (cnt ==0){
@@ -68,7 +80,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.height = "0";
     document.getElementById("main").style.marginTop= "0";
-}        
-</div>
+}
+</script>
      
+</body>
 </html> 
