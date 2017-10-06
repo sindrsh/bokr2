@@ -1,101 +1,70 @@
 <!DOCTYPE html>
+
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">            
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
 <head>
-<style>
-        
-body {
-    font-family: "Lato", sans-serif;
-    width:94%;
-    overflow: hidden;
-}
-.topnav {
-    height: 52px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left:3%;
-    background-color: #111;
-    overflow: hidden;
-    transition: 0.5s;
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">     </script>
+  
+</head>    
+
+<!--Menyer-->
+<style>  
+.menu{
+      width: 280px;
+      position: absolute;
+      top:12px;
+      }
+      
+ul {
+    /*font-family: Arial,sans-serif, Times;*/
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     width: inherit;
-}
-.topnav a,span {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    /*#f1f1f1; */
+    /*background-color: hsl(60, 70%, 95%);*/
+    background: rgba(251, 251, 233, 0.9);
+    /*line-height: 1em;*/
+    height: auto;
+    /*position: fixed;  Make it stick, even on scroll */
+    /*overflow: auto;  Enable scrolling if the sidenav has too much content */
+}    
+      
+li a {
     display: block;
-    transition: 0.3s;
+    /* #000 */
+    color: #000 ;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
-.topnav a:hover {
-    color: #f1f1f1;
+/* Change the link color on hover */
+li a.active {
+    background-color: hsl(0, 25%, 30%);
+    color: white;
 }
-.topnav span:hover {
-    color: #f1f1f1;
+li a:hover:not(.active) {
+    /*#555 */
+    background-color: hsl(0, 25%, 30%);
+    color: white;
 }
-#main {
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 94%;
-    font-size: 25px;    
-    transition: margin-top .5s;
-    padding: 16px;
-    margin-top: 52px;
-    font-family: "Lato", sans-serif; 
-}
+               
 </style>
-</head>
-<body>
-    
-<div id="mySidenav" class="topnav">
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>     
+<div class="menu" id="menu">    
+<ul>
   <li><a href="http://forkalkulus.netlify.com/start"> Startside</a></li>
   <li><a href="http://forkalkulus.netlify.com/kap1/kap1"> Kapittel 1 - Følger og rekker</a></li>
   <li><a href="http://forkalkulus.netlify.com/kap2/kap2">Kapittel 2 - Trigonometri</a></li>
-  <li><a href="" class="root" data-extra="kap3/kap3">Kapittel 3 - Vektorer i rommet</a></li>
-  <li><a href="" class="root" data-extra="kap4/kap4">Kapittel 4 - Romgeometri</a></li>
-  <li><a href="" class="root" data-extra="kap5/kap5">Kapittel 5 - Derivasjon</a></li>
-  <li><a href="" class="root" data-extra="kap6/kap6">Kapittel 6 - Integrasjon </a></li>
-  <li><a href="" class="root" data-extra="kap7/kap7">Kapittel 7 - Differensialligninger</a></li>  
-  <li><a href="" class="root" data-extra="ggb/ggb">GeoGebra</a></li>      
-  <li><a href="" class="root" data-extra="eks/eks">Eksamen</a></li>    
-  <li><a href="" class="root" data-extra="bst/bst">Bestill</a></li> 
-</div>
-
-<div id="main">  
-<p>Dette er hjemmesiden til <i>Før kalkulus</i>, et komplett læreverk i matematikk R2. Læreverket består
-av de to delene <i> Før kalkulus; Teoridel</i> og <i> Før kalkulus; GeoGebra i R2</i>. Teoridelen kan kjøpes i papirform 
-eller som brettbok (se <i>Bestill</i>), mens GeoGebra-delen ligger gratis tilgjengelig på denne nettsiden (se <i>GeoGebra</i>).</p>
-
-<p> Her finner du løsningsforslag for oppgavene fra 
-teoridelen, i tillegg til prosjektoppgaver for hvert kapittel og eksamensressurser. For innsyn, og i tilfelle 
-forsinkelser ved levering, er kapittel 1 fra teoridelen også gratis tilgjengelig (<i>se Kapittel 1 - Følger og rekker</i>). </p>
-
-<p> <b>Kontakt</b>: forkalkulus@gmail.com </p>
-<p><a href="frogi.pdf" class="button">Forside, innholdsfortegnelse og bakside</a></p>  
-  <p><a href="reg.pdf" class="button">Formelark</a></p>      
-</div>
-
-<script>
-var cnt = 0;    
-function openNav() {
-    if (cnt ==0){
-        document.getElementById("mySidenav").style.height = "660px";
-        document.getElementById("main").style.marginTop = "660px";
-        cnt = 1;
-    }
-    else{
-        document.getElementById("mySidenav").style.height = "52px";
-        document.getElementById("main").style.marginTop = "52px";
-        cnt = 0;
-    }
-}
-function closeNav() {
-    document.getElementById("mySidenav").style.height = "0";
-    document.getElementById("main").style.marginTop= "0";
-}
-</script>
+  <li><a href="http://forkalkulus.netlify.com/kap3/kap3">Kapittel 3 - Vektorer i rommet</a></li>
+  <li><a href="http://forkalkulus.netlify.com/kap4/kap4">Kapittel 4 - Romgeometri</a></li>
+  <li><a href="http://forkalkulus.netlify.com/kap5/kap5">Kapittel 5 - Derivasjon</a></li>
+  <li><a href="http://forkalkulus.netlify.com/kap6/kap6">Kapittel 6 - Integrasjon </a></li>
+  <li><a href="http://forkalkulus.netlify.com/kap7/kap7">Kapittel 7 - Differensialligninger</a></li>  
+  <li><a href="http://forkalkulus.netlify.com/ggb/ggb">GeoGebra</a></li>      
+  <li><a href="http://forkalkulus.netlify.com/eks/eks">Eksamen</a></li>    
+  <li><a href="http://forkalkulus.netlify.com/bst/bst">Bestill</a></li>  
+</ul>
+  
+</div>    
      
-</body>
-</html> 
+<html>
