@@ -44,11 +44,11 @@ body.backgr{
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
     /*background-color: hsl(0, 25%, 30%);*/
-    border: none;
+    /*border: none;*/
     color: hsl(0, 25%, 30%);
     padding: 9px 6px;
     text-align: center;
-    text-decoration: none;
+    /*text-decoration: none;*/
     /*display: inline-block;*/
     font-size: 1em;
 }  
