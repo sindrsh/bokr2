@@ -16,9 +16,10 @@
     margin-left: 440px;
     width: 640px;
     position: fixed;
+    height: 44
     top: 12px;
-    padding-top: 6px;
-    paddint-bottom: 6px;
+    padding-top: 7px;
+    paddint-bottom: 7px;
     padding-right: 20px;
     padding-left: 20px;
     /*background: hsl(200, 100%, 15%);*/
