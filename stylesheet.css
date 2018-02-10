@@ -37,8 +37,7 @@ h{
 body.backgr{
     /*background-image:url("http://www.math.cornell.edu/~mec/Winter2009/Mihai/section8_files/72-Day_and_Night.jpg");*/
     background-image:url("bck.jpeg");
-    background-color:lightblue;
-    /*background-color: rgba(0, 0, 255, 0.5);*/
+    background-color: rgba(0, 0, 255, 0.5);
     background-size: 100%;
     background-repeat: no-repeat;     
 }
