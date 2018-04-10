@@ -35,7 +35,7 @@ h{
 }
 
 body.backgr{
-    background-image:url("int4.jpg");
+    /*background-image:url("int4.jpg");
     background-attachment: fixed;
     background-position: 100% 15%;
     background-size: 20%;
