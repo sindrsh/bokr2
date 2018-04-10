@@ -36,7 +36,7 @@ h{
 
 body.backgr{
     background-image:url("int4.jpg");*/
-    background-position: 10% 80%;
+    background-position: right top;
     /*background-color: rgb(0, 102, 102);*/
     background-color: rgb(0, 153, 153);
     background-size: 20%;
