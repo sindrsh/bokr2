@@ -35,11 +35,12 @@ h{
 }
 
 body.backgr{
-    background-image:url("int4.jpg");*/
+    background-image:url("int4.jpg");
+    background-attachment: fixed;
     background-position: 80% 10%;
+    background-size: 20%;
     /*background-color: rgb(0, 102, 102);*/
     background-color: rgb(0, 153, 153);
-    background-size: 20%;
     background-repeat: no-repeat;     
 }
 
