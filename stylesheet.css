@@ -45,13 +45,13 @@ body.backgr{
 
 .button {
     /* hsl(24, 20%, 60%);, hsl(31, 68%, 36%);*/
-    /*background-color: hsl(0, 25%, 30%);*/
+    background-color: hsl(0, 25%, 30%);*/
     /*border: none;*/
     color: blue;
     /*padding: 0px 6px;*/
     /*text-align: center;*/
     text-decoration: none;
-    /*display: inline-block;*/
+    display: inline-block;
     /*font-size: 1em;*/
 }  
 
