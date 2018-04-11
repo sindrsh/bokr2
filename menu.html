@@ -80,7 +80,17 @@ li2 a:hover:not(.active) {
     background-color: rgb(0, 153, 102);
     color: white;
 }       
-      
+.files{
+color: black;
+background-color: rgb(51, 204, 204);
+border-left: 1px solid black;  
+border-right: 1px solid black;    
+border-top: 1px solid black; 
+border-radius:  5px 5px 0px 0px;
+padding: 0.5em 1em;
+margin-bottom: 0px;
+display: block;
+}         
 </style>  
 </head>    
               
@@ -92,11 +102,17 @@ li2 a:hover:not(.active) {
 </ul>
 </div>    
 
-<div class="menu2" style="top:200px">    
+<div class="menu2" style="top:150px">    
 <ul class="b">
-  <li2><a style="border-radius:5px 5px 0px 0px" href="http://forkalkulus.netlify.com/eks:/eks">Teoridel</a></li2>
-  <li2><a href="http://forkalkulus.netlify.com/eks:/eks">GeoGebra i R2 (v6)</a></li2>      
-  <li2><a style="border-radius: 0px 0px 5px 5px" href="http://forkalkulus.netlify.com/om/om">Om prosjektet</a></li2>  
+  <p class="files"><i class="fa fa-paperclip"></i>&nbsp; Dokumenter</p>
+  <li2><a style="border-top: 1px solid white" href="#">Teoridel</a></li2>
+  <li2><a href="#ggb5">GeoGebra 5 i R2</a></li2>   
+  <li2><a href="#bbg6">GeoGebra 6 i R2</a></li2>
+  <li2><a href="#bbg6">Løsningsforslag; Teoridel</a></li2> 
+  <li2><a href="#bbg6">Løsningsforslag; Ggb 5 i R2</a></li2> 
+  <li2><a href="#bbg6">Løsningsforslag; Ggb 6 i R2</a></li2>   
+  <li2><a href="#bbg6">Undervisningsopplegg</a></li2>             
+  <li2><a style="border-bottom: 1px solid black; border-radius: 0px 0px 5px 5px" onclick="show('start')" href="#">Prosjektoppgaver!</a></li2>  
 </ul>
 </div>    
       
