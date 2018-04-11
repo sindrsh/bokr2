@@ -1,0 +1,27 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<head>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+<link rel="import" href="../menu.html">  
+</head>
+
+<body id="bd" class=backgr>
+
+<script src="../menuscript1.js"></script>  
+<script src="../menuscript0.js"></script>  
+<script src="../menuscript.js"></script>  
+    
+<div class=hd> 
+    <h> Om prosjektet <h>    
+    </div>
+
+<div class=marg>  
+  <p> Visjonen bak <i> Før Kalkulus </i> er å tilby et læreverk som er gratis for alle
+og som kan utvikle seg etter medvirkning og tilbakemelding fra lærere, elever og andre. Om det er noe du ønsker å bidra med, gi lyd! 
+</p>
+<p> <b>Kontakt</b>: sindre.heggen@gmail.com </p>  
+
+</div>    
+   
+</body>
+</html>
