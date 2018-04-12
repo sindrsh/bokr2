@@ -31,8 +31,10 @@ li{
 }
 
 body {
+	width:96%;
+	margin-right: 2%;
+	margin-left: 2%;
     font-family: "Lato", sans-serif;
-    width:100%;
     overflow: hidden;
 }
 
@@ -66,7 +68,6 @@ li2 a:hover:not(.active) {
 }  
 
 #main {
-    width: inherit;
     height: 700px;
     overflow-y: scroll;
     font-size: 23px;    
@@ -75,5 +76,5 @@ li2 a:hover:not(.active) {
     padding-right: 14px;
     margin-top: 52px;
     font-family: "Lato", sans-serif; 
-    background-color: rgb(251, 251, 233);
+    background-color: blue;
 }
