@@ -67,7 +67,7 @@ li2 a:hover:not(.active) {
 
 #main {
     width: inherit;
-    height: auto;
+    height: 700px;
     overflow-y: scroll;
     font-size: 23px;    
     transition: margin-top .5s;
