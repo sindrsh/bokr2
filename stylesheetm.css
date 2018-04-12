@@ -1,16 +1,48 @@
+.topnav {
+    height: 52px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: rgb(0, 153, 51);
+    overflow: hidden;
+    transition: 0.5s;
+    width: inherit;
+}
+.topnav a,span {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+.topnav a:hover {
+    color: #f1f1f1;
+}
+.topnav span:hover {
+    color: #f1f1f1;
+}
+
+li{
+ 	display: block;
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 body {
     font-family: "Lato", sans-serif;
-    width:94%;
+    width:98%;
     overflow: hidden;
 }
 
 #main {
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 94%;
+    width: inherit;
     font-size: 23px;    
     transition: margin-top .5s;
     padding: 16px;
+    padding-right: 14px;
     margin-top: 52px;
     font-family: "Lato", sans-serif; 
+    background-color: rgb(251, 251, 233);
 }
