@@ -1,8 +1,8 @@
 var cnt = 0;    
 function openNav() {
     if (cnt ==0){
-        document.getElementById("mySidenav").style.height = "660px";
-        document.getElementById("main").style.marginTop = "660px";
+        document.getElementById("mySidenav").style.height = "250px";
+        document.getElementById("main").style.marginTop = "250px";
         cnt = 1;
     }
     else{
