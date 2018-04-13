@@ -15,3 +15,5 @@ function closeNav() {
     document.getElementById("mySidenav").style.height = "0";
     document.getElementById("main").style.marginTop= "0";
 }
+
+document.getElementById("main").style.height = String(window.innerHeight-60)+"px";
