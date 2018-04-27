@@ -3,12 +3,14 @@
 .menu{
       width: 15%;
       position: absolute;
+      left: 20px;
       top:12px;
       }
 .menu2{
       width: 15%;
       position: absolute;
       top:12px;
+      left 20px;
       }      
    
       
